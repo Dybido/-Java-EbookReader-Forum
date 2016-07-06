@@ -1,0 +1,41 @@
+Changelog : 
+
+19/04/2016
+	+ Both Reader and Server can now read multiple input 
+	+ Added Book & Page class 
+	+ Server : Calls Books to make Book objects
+		Book : Calls Pages to make Page objects
+		Page : Creates list of lists of posts
+	+ Format : Server <>-- Books(bookName, ArrayList<Pages>) <>-- Pages(List<ArrayList<String>>, pageNumber)
+	
+20/04/2016
+	+ Successfully made reader and server send commands to each
+	+ MANAGED TO MOTHERFUCKING SEND AN ARRAY USING OBJECTOUTPUTSTREAM MOTHERFUCKEERRRRSSSSSSS
+	+ Commented out socket.close() in client to allow for multiple requests to server
+	+ Completed story listing for joyce & shelley
+	+ Implemented a bare bone read_post 
+	+ Confirmed that post_to_forum works for multiple posts
+	+ Confirmed that read_post works for multiple posts
+
+21/04/2016
+	+ Introduced a Post class to handle the forum posts
+	+ Changed all related classes to handle Post objects
+	+ Changed pull:display to retrieve Pages instead of Posts
+	+ pull:display now shows new/old/same discussions
+	+ Implemented helper(getBook) to Reader
+	
+22/04/2016
+	+ Added usernames to Reader
+	+ post_to_forum and read_post now tracks usernames too 
+	+ refined post_to_forum and display 
+	+ read_post now prints correctly, however doesn't update local cache yet
+	+ read_post now updates the local cache correctly FUCK YEHAAAAAHAHAHAHAHAHAHh
+	+ softcoded initialisation of database in both reader and server 
+	+ display in Server.java has been refined 
+	
+Task : 
++ add usernames to messages (DONE)
++ figure out way to implement scanner to detect files rather than hardcode it (DONE)
++ timer (fuck this)
++ push 
++ refine push_to_forum & read_post (DONE)
