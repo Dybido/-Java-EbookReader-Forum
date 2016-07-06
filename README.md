@@ -45,6 +45,7 @@ Note : post_to_forum and read_post should only be executed after selecting the b
 
 <b> Reflection </b>
 <ul>
+  <li> Object Oriented Programming was my approach to this project and it worked really well. 
   <li> This was my first time implementing threading in Java. It was surprisingly not too difficult. </li>
   <li> Timer turned out to be more complicated than I thought. It is still yet to be fully implemented correctly. </li>
   <li> IDEs are incredible at saving time. </li> 
